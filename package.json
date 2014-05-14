@@ -1,0 +1,15 @@
+{
+	"name": "tab-move-key",
+	"main": "./lib/tab-move-key",
+	"version": "0.0.0",
+	"author": "Jonathan Gotti <jgotti at jgotti dot org>",
+	"description": "move editor panes using your keyboard",
+	"repository": "https://github.com/atom/tab-move-key",
+	"activationEvents": ["tab-move-key:left","tab-move-key:right"],
+	"license": "MIT",
+	"engines": {
+		"atom": ">0.50.0"
+	},
+	"dependencies": {
+	}
+}

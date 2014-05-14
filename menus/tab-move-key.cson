@@ -1,0 +1,18 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+	'.overlayer':
+		'move pane left': 'tab-move-key:left'
+		'move pane right': 'tab-move-key:right'
+
+'menu': [
+	{
+		'label': 'Packages'
+		'submenu': [
+			'label': 'tab-move-key'
+			'submenu': [
+				{ 'label': 'move left', 'command': 'tab-move-key:left' }
+				{ 'label': 'move right', 'command': 'tab-move-key:right' }
+			]
+		]
+	}
+]
