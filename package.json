@@ -4,7 +4,7 @@
 	"version": "0.0.0",
 	"author": "Jonathan Gotti <jgotti at jgotti dot org>",
 	"description": "move editor panes using your keyboard",
-	"repository": "https://github.com/atom/tab-move-key",
+	"repository": "https://github.com/malko/atom-tab-move-key",
 	"activationEvents": ["tab-move-key:left","tab-move-key:right"],
 	"license": "MIT",
 	"engines": {
